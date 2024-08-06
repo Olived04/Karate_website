@@ -1,0 +1,47 @@
+.body {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows:auto;
+  grid-template-areas: 
+    "header header header header"
+	"nav nav nav nav"
+    "main main main main"
+    "footer footer footer footer";
+}
+
+.header {
+	grid-area: header;
+	border-bottom: 3px black outset;
+	text-align: center;
+}
+
+.nav {
+	
+}
+
+.main {
+	
+}
+
+.footer {
+	
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: solid;
+  border-width: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 20%;
+  margin: 5px;
+}
+
+#logo {
+	height:160px;
+	width:160px;
+}
