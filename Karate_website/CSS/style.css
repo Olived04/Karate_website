@@ -24,9 +24,40 @@
 }
 
 .footer {
-	
+	background-color: #3fc0404;
 }
 
+#person {
+	height: 50px;
+	width: 50px;
+}
+
+#members {
+	margin-left:auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	width:100%;
+	border: red;
+}
+
+#member td, #members th {
+	border: 1px solid red;
+	padding: 8px;
+}
+
+#members tr:hover {
+	background-color: black;
+	color: white;
+	border-color: #fc0404;
+}
+
+#members th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: black;
+	color: white;
+}
 
 .button {
 	justify-items: center;
@@ -48,7 +79,7 @@
   position: relative;
   text-align: center;
   text-decoration: none;
-  transition: transform .2s;
+  transition: transform .5s;
 }
 
 .button:not(:disabled):hover {
@@ -59,7 +90,7 @@
 
 
 .button:not(:disabled):active {
-  transform: translateY(.125rem);
+  transform: translateY(5px);
 }
 #logo {
 	padding:4px;
