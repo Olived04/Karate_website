@@ -2,6 +2,10 @@ html {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 .body {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -17,6 +21,7 @@ html {
 	grid-area: header;
 	border-bottom: 3px black solid;
 	text-align: center;
+	background-color: #EFAEAE;
 }
 
 .nav {
@@ -32,7 +37,7 @@ html {
 .footer {
 	background-color: black;
 	color: white;
-	border: 3px red solid;
+	border-top: 3px red solid;
 	width: 100%;
 	height: 300px;
 	text-align: left;
@@ -45,9 +50,15 @@ html {
 
 iframe {
 	float: right;
-	margin-right: 40px;
+	margin-right: auto;
+	margin-left:auto;
 	height:200px;
 	width:700px;
+}
+
+#main_img {
+	width: 99.9%;
+	padding: 0.1%;
 }
 
 #person {
@@ -119,4 +130,5 @@ iframe {
 	padding:4px;
 	height:160px;
 	width:160px;
+	border: 4px black solid;
 }
